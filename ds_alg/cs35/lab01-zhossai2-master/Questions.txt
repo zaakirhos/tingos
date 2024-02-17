@@ -1,0 +1,60 @@
+Answer the following questions by modifying this text file.  Write
+your answers between each question.  You're not being graded or judged
+on these answers.
+
+1. What is your name?  What do you prefer to be called?
+Zakir Hossain
+Zakir
+
+
+2. Why are you taking CS35?
+To help be land in the career of Data Science
+
+
+3. What is your previous experience in Computer Science?  What
+programming languages do you know, and which classes have you taken?
+
+I have 3 years of programming experience. I have worked in multiple projects (personal and enterprise)
+The current project I am working on is a static website for archive hosting
+
+I am experienced with many topics and fields in Computer science.
+Languages that I am fluent:
+-JavaScript
+-Python
+-Java
+-C family (C++, C, C#, ObjectiveC)
+-TypeScript
+-Scala
+-Kotlin
+-Rust
+-Golang
+-R
+-Julia
+-PHP
+-Markups (HTML, XML, CSS, Sass, etc.)
+-and more
+
+
+
+
+4. These are a couple questions about how you approach your assignments.
+
+  a. Do you start on your homework as soon as it is assigned or do you
+  tend to finish it right before it's due?
+  I am kind of in between. I usually tend to start earlier.
+  
+  
+  
+  b. When doing group work, do you prefer for your group to split your
+  work up into pieces or do you like to work together as a group
+  through as much of the material as possible?
+  Most of the time, I prefer to work together, but there are times when splitting the tasks
+  make it more efficient.
+
+
+
+5. What do you consider fun?
+    Playing sports
+    playing pool games (billiard)
+    etc.
+

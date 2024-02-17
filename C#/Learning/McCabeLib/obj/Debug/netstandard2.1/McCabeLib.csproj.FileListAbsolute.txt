@@ -1,0 +1,10 @@
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/McCabeLib/bin/Debug/netstandard2.1/McCabeLib.deps.json
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/McCabeLib/bin/Debug/netstandard2.1/McCabeLib.dll
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/McCabeLib/bin/Debug/netstandard2.1/McCabeLib.pdb
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/McCabeLib/obj/Debug/netstandard2.1/McCabeLib.csproj.AssemblyReference.cache
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/McCabeLib/obj/Debug/netstandard2.1/McCabeLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/McCabeLib/obj/Debug/netstandard2.1/McCabeLib.AssemblyInfoInputs.cache
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/McCabeLib/obj/Debug/netstandard2.1/McCabeLib.AssemblyInfo.cs
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/McCabeLib/obj/Debug/netstandard2.1/McCabeLib.csproj.CoreCompileInputs.cache
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/McCabeLib/obj/Debug/netstandard2.1/McCabeLib.dll
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/McCabeLib/obj/Debug/netstandard2.1/McCabeLib.pdb

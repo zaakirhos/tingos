@@ -1,0 +1,11 @@
+## Commands
+
+- _brew install rustup_ installs Rust
+- _rustup-init_ installs compiler and package manager (rustc, cargo)
+
+- _cargo new _NAME_
+  - creates a new project under the _NAME_
+  - Adds the _Cargo.toml_, _src_, and other files and folders
+
+- _cargo build_  builds the project and creates binary
+- _cargo run_ executes the binary

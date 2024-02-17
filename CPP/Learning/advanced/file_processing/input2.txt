@@ -1,0 +1,6 @@
+1	100	Daniel Kartz
+2	90	John H. Hunt
+3	35	Samule Beckett
+4	95	George Lopez
+5	50	A. Scott Fitzgerald
+6	100	E. F. Jonhson

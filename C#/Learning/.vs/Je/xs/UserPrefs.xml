@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{97CEEF43-B39F-43EF-9631-C7A1FC3CF610}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Learning/Program.cs">
+    <Files>
+      <File FileName="Learning/Program.cs" Line="12" Column="1" />
+      <File FileName="McCabeLib/Class1.cs" Line="9" Column="1" />
+      <File FileName="McCabeLib/EmptyClass.cs" Line="11" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Je" expanded="True">
+            <Node name="McCabeApp" expanded="True" />
+            <Node name="McCabeLib" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.McCabeApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

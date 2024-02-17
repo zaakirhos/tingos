@@ -1,0 +1,48 @@
+# TODO: show the list interpreted as a complete binary tree
+
+: Convert [5,4,2,3,2,8,5] to complete binary tree
+
+    5
+ 4     2
+3 2   8 5
+
+# TODO: show each bubble-down operation as the tree is heapified
+
+: i = 0, node at i = 5, bubbleUp(i)
+    5
+ 4     2
+3 2   8 5
+
+: i = 1, node at i = 4, bubbleUp(i)
+    5
+ 4     2
+3 2   8 5
+
+: i = 2, node at i = 2, bubbleUp(i)
+    5
+ 4     2
+3 2   8 5
+
+: i = 3, node at i = 3, bubbleUp(i)
+    5
+ 4     2
+3 2   8 5
+
+: i = 4, node at i = 2, bubbleUp(i)
+    5
+ 4     2
+3 2   8 5
+
+: i = 5, node at i = 8, bubbleUp(i)
+    8
+ 4     5
+3 2   2 5
+
+: i = 6, node at i = 5, bubbleUp(i)
+    8
+ 4     5
+3 2   2 5
+
+: i = size-1 $=>$ loop ends
+
+

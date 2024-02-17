@@ -1,0 +1,10 @@
+#base image
+FROM python:3
+
+#
+ENV PYTHONBUFFERED 1
+
+# Working direq
+WORKDIR /app
+
+ADD . /app

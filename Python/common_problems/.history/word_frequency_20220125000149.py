@@ -1,0 +1,56 @@
+import re
+from collections import defaultdict
+
+# import nltk
+# nltk.download('punkt')
+from nltk.tokenize import word_tokenize
+from nltk.probability import FreqDist
+
+# 1. pure algorithm
+def count_word_frequency1(text):
+    """
+    Count the frequency of each word in a text.
+    """
+    words = text.split()
+    word_count = {}
+    for word in words:
+        if word in word_count:
+            word_count[word] += 1
+        else:
+            word_count[word] = 1
+    return word_count
+
+# 2. with defaultdict
+def count_word_frequency2(text):
+    words = text.split()
+    wordList = [(word, index) for index, word in enumerate(words)]
+    dd = defaultdict(list)
+    for word, index in wordList: dd[word].append(index)
+
+    return {word: len(count) for word, count in zip(dd.keys(), dd.values())}
+
+# 3. with NLTK
+def count_word_frequency3(text):
+    words = word_tokenize(text)
+    freq = FreqDist(words)
+    return freq.most_common()
+
+
+words = """People demand freedom of speech as a compensation for the 
+freedom of thought which they seldom use."""
+
+# make the words lowercase and remove the punctuation
+words = re.sub(r"[^\w\s]", "", words.lower())
+
+
+def main():
+    frequency1 = count_word_frequency1(words)
+    frequency2 = count_word_frequency2(words)
+    frequency3 = count_word_frequency3(words)
+    print(frequency1)
+    print(frequency2)
+    print(frequency3)
+
+
+if __name__ == "__main__":
+    main()

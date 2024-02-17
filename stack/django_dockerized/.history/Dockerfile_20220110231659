@@ -1,0 +1,13 @@
+#base image
+FROM python:3
+
+#
+ENV PYTHONBUFFERED 1
+
+# Working direqctory
+WORKDIR /app
+
+# Add all the stuff we need to the container
+ADD . /app
+
+COPY

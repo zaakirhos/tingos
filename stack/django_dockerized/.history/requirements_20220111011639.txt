@@ -1,0 +1,4 @@
+# Dependencies
+Django==3.2.6
+gunicorn==20.0.4
+req

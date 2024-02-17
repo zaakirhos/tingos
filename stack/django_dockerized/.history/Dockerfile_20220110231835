@@ -1,0 +1,17 @@
+#base image
+FROM python:3
+
+#
+ENV PYTHONBUFFERED 1
+
+# Working direqctory
+WORKDIR /app
+
+# Add all the stuff we need to the container
+ADD . /app
+## copy to /app/requirements.txt
+COPY ./requirements.txt /app/requirements.txt
+
+RUN pip install -r requirements.txt
+
+COPY .

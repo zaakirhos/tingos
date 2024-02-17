@@ -1,0 +1,3 @@
+# Depende
+Django==2.2
+gunicorn==20.0.4

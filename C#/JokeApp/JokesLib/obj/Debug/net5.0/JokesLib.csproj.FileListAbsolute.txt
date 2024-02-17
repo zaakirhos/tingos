@@ -1,0 +1,12 @@
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/bin/Debug/net5.0/JokesLib.deps.json
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/bin/Debug/net5.0/JokesLib.dll
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/bin/Debug/net5.0/ref/JokesLib.dll
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/bin/Debug/net5.0/JokesLib.pdb
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/obj/Debug/net5.0/JokesLib.csproj.AssemblyReference.cache
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/obj/Debug/net5.0/JokesLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/obj/Debug/net5.0/JokesLib.AssemblyInfoInputs.cache
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/obj/Debug/net5.0/JokesLib.AssemblyInfo.cs
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/obj/Debug/net5.0/JokesLib.csproj.CoreCompileInputs.cache
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/obj/Debug/net5.0/JokesLib.dll
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/obj/Debug/net5.0/ref/JokesLib.dll
+/Users/zakirhossain/Tech/my-code-pot/C#/Learning/JokeApp/JokesLib/obj/Debug/net5.0/JokesLib.pdb

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Jokes/1.0.0": {
+        "dependencies": {
+          "JokesLib": "1.0.0"
+        },
+        "runtime": {
+          "Jokes.dll": {}
+        }
+      },
+      "JokesLib/1.0.0": {
+        "runtime": {
+          "JokesLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Jokes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JokesLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

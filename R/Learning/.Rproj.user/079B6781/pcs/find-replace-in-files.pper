@@ -1,0 +1,13 @@
+{
+    "dialog-state": {
+        "query": "edit",
+        "path": "~/Documents/Code/MyProgramming/Languages/R/Learning",
+        "regex": false,
+        "caseSensitive": false,
+        "filePatterns": [],
+        "excludeFilePatterns": [],
+        "resultsCount": 4,
+        "errorCount": 0,
+        "replaceErrors": ""
+    }
+}

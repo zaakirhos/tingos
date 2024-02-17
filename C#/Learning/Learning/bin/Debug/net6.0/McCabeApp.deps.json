@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "McCabeApp/1.0.0": {
+        "dependencies": {
+          "McCabeLib": "1.0.0"
+        },
+        "runtime": {
+          "McCabeApp.dll": {}
+        }
+      },
+      "McCabeLib/1.0.0": {
+        "runtime": {
+          "McCabeLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "McCabeApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "McCabeLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

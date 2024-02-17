@@ -1,0 +1,39 @@
+      30
+  20      40
+10
+
+:insert(12)
+
+     30
+  20    40
+10
+  12
+
+
+:Before rebalance
+
+     30
+  20    40
+10 
+  12
+
+: X subtree
+
+10
+  12
+
+: Y subtree (empty)
+
+
+: Z subtree
+
+40
+
+
+: Rebalanced
+
+   20
+10    30
+  12     40
+
+

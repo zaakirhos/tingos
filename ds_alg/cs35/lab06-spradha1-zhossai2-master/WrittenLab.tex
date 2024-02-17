@@ -1,0 +1,192 @@
+
+\documentclass[12pt]{article}
+ 
+\usepackage{enumitem}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,scrextend}
+\usepackage{fancyhdr}
+\usepackage{alltt}
+\pagestyle{fancy}
+
+ 
+
+
+ 
+
+\begin{document}
+
+
+\lhead{CS 35}
+\chead{Zakir Hossain, Summit Pradhan}
+\rhead{\today}
+ 
+% \maketitle
+ 
+\section{Inductive Proofs}
+
+\text{Solve the following problems with Induction}\\
+ 
+\begin{enumerate}
+
+\item 
+\text{The sum of the first n even numbers is } $n^2 + n$. 
+\text{That is}, $$\sum_{i=1}^{n} 2i =  n^2 + n$$
+
+\textit{proof.}
+
+\textbf{Base case (n = 1):  } 
+
+$$\text{LHS:  }\sum_{i=1}^{1}{2i} = 2$$
+$$\text{ RHS:  }1^2 +1 = 2 $$ \\
+
+\text{Since LHS = RHS, the base case holds true}
+
+\textbf{Inductive Hypothesis: } Assume that
+
+$$\sum_{i=1}^{n} 2i =  n^2 + n \text{   for all n such that } 1\le n \le k$$
+
+\textbf{Inductive Step: } 
+$$\text{I must show that  }\sum_{i=1}^{k+1} 2i =  (k+1)^2 + (k+1) = k^2 + 3k + 2$$
+
+
+\text{If we expand the last term, we get: }
+$$\sum_{i=1}^{k+1} 2i = 2(k+1) + \sum_{i=1}^{k} 2i$$
+\text{ With our inductive hypothesis, we have: }
+$$ = 2(k+1) +k^2 + k $$
+$$= k^2 + k + 2k + 1$$
+$$= k^2 + 3k + 2 $$\\
+
+
+\item 
+$$\sum_{i=1}^{n} \frac{1}{2^i} =  1 - \frac{1}{2^n}$$
+
+\textit{proof.}
+
+\textbf{Base case (n = 1):  } 
+
+$$\text{LHS:  }\sum_{i=1}^{1} \frac{1}{2^i} = \frac{1}{2}$$
+$$\text{ RHS:  } 1 - \frac{1}{2^1} = \frac{1}{2} $$ \\
+
+\text{Since LHS = RHS, the base case holds true}
+
+\textbf{Inductive Hypothesis: } Assume that
+
+$$\sum_{i=1}^{n} \frac{1}{2^i} =  1 - \frac{1}{2^n} \text{   for all n such that } 1\le n \le k$$
+
+\textbf{Inductive Step: } 
+$$\text{I must show that  } \sum_{i=1}^{k+1} \frac{1}{2^i} = 1 - \frac{1}{2^{k+1}}$$
+
+\text{If we expand the last term, we get: }
+$$\sum_{i=1}^{k+1} \frac{1}{2^i} = \frac{1}{2^{k+1}}  + \sum_{i=1}^{k} \frac{1}{2^i}$$
+\text{ With our inductive hypothesis, we have: }
+$$ = \frac{1}{2^{k+1}} + 1 - \frac{1}{2^k} $$
+\text{Finding common denominator (with expo law $2^k * 2^m = 2^{k+m}$ ): }
+$$= \frac{1}{2^{k+1}} + 1 - \frac{1}{2^k} *  \left (\frac{2^1}{2^1}\right)$$
+
+$$= \frac{1}{2^{k+1}} + 1 - \frac{2}{2^{k+1}}$$
+
+$$=  1 - \frac{1}{2^{k+1}}$$
+
+
+\pagebreak
+\item 
+$$\sum_{i=0}^{n} 2^i =  2^{n + 1} - 1$$
+
+\textit{proof.}
+
+\textbf{Base case (n = 0):  } 
+
+$$\text{LHS:  }\sum_{i=0}^{0}{2^i} = 1$$
+$$\text{ RHS:  } 2^{0+1} - 1 = 2 -1 = 1 $$ \\
+
+\text{Since LHS = RHS, the base case holds true}
+
+\textbf{Inductive Hypothesis: } Assume that
+
+$$\sum_{i=0}^{n} 2^i =  2^{n + 1} - 1 \text{   for all n such that } 1\le n \le k$$
+
+\textbf{Inductive Step: } 
+$$\text{I must show that  }\sum_{i=0}^{k+1} 2^i =  2^{(k+1) + 1} - 1  = 2^{k+2} - 1$$
+
+
+\text{If we expand the last term, we get: }
+$$\sum_{i=0}^{k+1} 2^i = 2^{k+1} + \sum_{i=0}^{k} 2^i $$
+\text{ With our inductive hypothesis, we have: }
+$$ = 2^{k+ 1} + 2^{k + 1} - 1$$
+
+
+$$= k^2 + k + 2k + 1$$
+$$= 2 * (2^{k+1}) -1 $$
+\text{2 is same as $2^1$ (to apply law $2^k * 2^m = 2^{k+m})$}
+$$= 2^1 * (2^{k+1}) -1 $$
+$$= 2^{(k+1+1) } -1  = 2^{k+2 } -1$$
+
+\end{enumerate}
+\pagebreak
+\vspace{1cm}
+\section{Recursive Invariants}
+The function \texttt{minEven}, given below in pseudocode, takes as input an array $A$ of size $n$ of numbers.  It returns the smallest \textit{even} number in the array.  If no even numbers appear in the array, it returns positive infinity ($+\infty$).  Using induction, prove that the \texttt{minEven} function works correctly.  Clearly state your recursive invariant at the beginning of your proof.
+
+\begin{alltt}
+Function minEven(A,n)
+  If n = 0 Then
+    Return +\ensuremath{\infty}
+  Else
+    Set best To minEven(A,n-1)
+    If A[n-1] < best And A[n-1] is even Then
+      Set best To A[n-1]
+    EndIf
+    Return best
+  EndIf
+EndFunction
+\end{alltt}
+
+
+\textbf{Recursive Invariant:}
+
+Let $P(n)$ be the function that represents minEven such that $P(n)$ either returns the lowest even number in the first n elements of an array or returns positive infinity
+if no even numbers are within the first n elements. 
+
+\bigskip
+\textbf{Base Case (n = 0)}
+\begin{enumerate}
+    \item For $P(0)$, the function has an input of the first 0 elements in an array, or in other words no elements at all. 
+    Since an empty array can never contain an even number, it must be true that $P(0)$ outputs positive infinity. 
+    \item The first if statement in minEven would check if n is equal to zero. Since n is equal to zero, it returns positive infinity. 
+    \item Therefore, the base case of n = 0 follows the recursive invariant.
+\end{enumerate}
+
+\bigskip
+\textbf{Induction Hypothesis}
+
+Assume that $P(n)$ functions properly for all inputs of size $0 <= n <= k$ such that $P(n)$ either returns the lowest even number in the 
+first n terms of an array or that it returns positive infinity if the array only contains odd numbers in the first n elements. 
+
+\bigskip
+\textbf{Inductive Step}
+
+Goal: Show that P(K+1) outputs the proper value
+\begin{enumerate}
+    \item The initial call of the function will be minEven(A, K+1) where A is an array of at least K+1 elements. 
+    \item Since K+1 is greater than zero, the first if statement in minEven is false, causing the function to enter the else statement
+    \item In the else statement, minEven(A, K+1) calls minEven(A, K) and sets it to the variable best.
+    \begin{enumerate}
+        \item  Based on the Inductive Hypothesis, it can be assumed that minEven(A, K) works properly and either returns
+         the lowest even number in the first K elements or returns positive infinity. 
+    \end{enumerate}
+    \item In the second if statement, if A[K] is a smaller even number than best, then best is set to A[K]. 
+    \begin{enumerate}
+        \item Based on the previous step, it can be assumed that best is either the smallest even number from the first K elements or positive infinity if the 
+        array does not contain any even numbers. If A[K] is a smaller even number than best, that means that A[K] must be the smallest even number in the first
+         K+1 elements of the array. If this is true, then best is set to A[K]. If this is not true, then best retains its value. In both situations, the value stored 
+         in best is either the lowest even number in the first K+1 elements of the array, or positive infinity if the array does not contain any even numbers. 
+    \end{enumerate}
+    \item  minEven(A,K+1) then returns best.
+    \begin{enumerate}
+        \item As stated in the previous step, best represents either the smallest even number in the first K+1 elements of the array or positive infinity if there were no even numbers in that range. 
+        Since best is equal to the value that minEven is intended to output, it must be true that minEven(A, K+1) works as intended. 
+    \end{enumerate}
+\end{enumerate}
+
+Since P(K+1) outputs the intended results, the inductive step is proven to be true. 
+\end{document}

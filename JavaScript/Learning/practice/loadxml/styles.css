@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(215, 208, 208);
+}
+
+div#search {
+  text-align: left;
+  margin: 30px;
+}
+#searchbar {
+  height: 50px;
+  width: 1000px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.submit {
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.submit:hover {
+    background-color: rgb(64, 240, 64);
+}
+
+#books {
+  text-align: left;
+}
+
+tbody > tr {
+  font-size: 17px;
+}
+tbody > tr > :nth-child(3) {
+  font-style: italic;
+}
+
+#tableheaders {
+  font-size: 20px;
+}
+
+tr {
+  outline: dashed 1px green;
+}
+
+td:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+td:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}

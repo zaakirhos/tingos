@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>HTML Form</h1>
+
+    <!-- action = a script where the data may be processed -->
+    <form action="">
+      <label for="username">Enter username <br /></label>
+      <input type="text" id="username" name="username" placeholder="Username" required/>
+      <br /><br />
+      <label for="email">Enter Email <br /></label>
+      <input type="email" id="email" name="email" placeholder="Email" />
+      <br /><br />
+      <label for="password">Enter Password</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Password"
+      />
+
+      <!-- Radial buttons, with the same name, you can only select one -->
+      <br /><br />
+      <input type="radio" name="gender" value="Male" /> Male <br />
+      <input type="radio" name="gender" value="Female" /> Female <br />
+      <input type="radio" name="gender" value="Other" /> Other <br />
+      <br /><br />
+      <!-- Select options -->
+      <label for="Questions"><br />Security Question</label>
+      <select name="questions" id="questions">
+        <option value="q1">What was your first pet's name?</option>
+        <option value="q2">Your favorite vegetable?</option>
+        <option value="q3">What was your mother's middle name?</option>
+      </select>
+      <br>
+        <label for=""><br>Answers</label>
+        <input type="text" id="answer" name="answer" />
+
+
+        <br><br>
+        <!-- Text Area -->
+        <label for="bio">Your Bio</label>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter your bio..."></textarea>
+
+        <!-- Submit -->
+        <br>
+        <input type="submit" value="Submit">
+
+
+
+    </form>
+  </body>
+</html>

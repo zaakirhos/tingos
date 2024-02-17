@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(to right, #000000, #2d3436);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.grid-outline {
+  height: 90vh;
+  width: 70vw;
+  border: 1px solid rgb(110, 105, 105);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.grid-outline {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, 186px);
+}
+
+.grid > * {
+  background-color: green;
+  height: 200px;
+}
+.cell {
+  height: 0.9vh;
+  width: 0.7vw;
+  border: 0.5px dashed yellow;
+}

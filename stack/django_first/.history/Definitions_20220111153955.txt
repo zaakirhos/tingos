@@ -1,0 +1,2 @@
+View in MVT is Controller in MVC
+Template in MVT is View

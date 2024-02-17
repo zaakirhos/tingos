@@ -1,0 +1,13 @@
+{% extends 'calc/base.html' %}
+
+{% block content %}
+<h1>Hello {{name}} </h1>
+
+<!-- On submit, send the form-data to a url ./add -->
+<form action="add" method="post">
+    {% %}
+Enter 1st number: <input type="text" name="num1" />
+Enter 2nd number: <input type="text" name="num2" />
+<input type="submit" value="Submit" />
+</form>
+{% endblock %}

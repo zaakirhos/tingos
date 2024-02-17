@@ -1,0 +1,26 @@
+       5
+    4      7
+         6   8
+              9
+
+
+: X subtree
+
+4
+
+: Y subtree
+
+6
+
+: Z subtree
+
+     8
+          9
+
+
+: after rotation
+
+
+      7
+    5   8    
+   4 6   9

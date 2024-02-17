@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b611326-dd7e-4cfb-9064-cb1c87cc327c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arg_and_kwarg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/argumentparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/argumentparser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/all.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/bytearray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/callable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/classmethod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/delattr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/divmod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/getattr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/hasattr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/isinstance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/issubclass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/range.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/builtins/sorting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filtering.py" beforeDir="false" afterPath="$PROJECT_DIR$/filtering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Inheritance/single.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Inheritance/single.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/polymorphism/overloading_poly.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/polymorphism/overloading_poly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projects/Heart Disease/Heart Disease Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Projects/Heart Disease/Heart Disease Analysis.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="c4f6e6d6-2bfa-4837-b6ca-daf3aae8d03b">
+    <option name="files">
+      <option value="tools/jupyter_in_pycharm.ipynb" />
+    </option>
+  </component>
+  <component name="ProjectId" id="1bVkWs2mEp1aBiS33dnbeCFj41K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oop" />
+      <recent name="$PROJECT_DIR$/oop/Inheritance" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/frameworks" />
+      <recent name="$PROJECT_DIR$/local_import" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.platform_module">
+    <configuration name="3.9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new_features" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_features/3.9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RSA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/RSA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="filtering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filtering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="havel_hakimi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/havel_hakimi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="platform_module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/platform_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.platform_module" />
+        <item itemvalue="Python.filtering" />
+        <item itemvalue="Python.3.9" />
+        <item itemvalue="Python.RSA" />
+        <item itemvalue="Python.havel_hakimi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b611326-dd7e-4cfb-9064-cb1c87cc327c" name="Default Changelist" comment="" />
+      <created>1588724682077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588724682077</updated>
+      <workItem from="1588724683672" duration="55000" />
+      <workItem from="1588994678173" duration="1778000" />
+      <workItem from="1588996519465" duration="4730000" />
+      <workItem from="1589086536265" duration="427000" />
+      <workItem from="1590613150497" duration="392000" />
+      <workItem from="1590863079933" duration="781000" />
+      <workItem from="1591499288972" duration="62000" />
+      <workItem from="1591722782976" duration="1318000" />
+      <workItem from="1593227611662" duration="254000" />
+      <workItem from="1593228014996" duration="614000" />
+      <workItem from="1593229281500" duration="48000" />
+      <workItem from="1593229343067" duration="60000" />
+      <workItem from="1593229415661" duration="139000" />
+      <workItem from="1593233158189" duration="28000" />
+      <workItem from="1593233197203" duration="286000" />
+      <workItem from="1593233497029" duration="87000" />
+      <workItem from="1593234965806" duration="21000" />
+      <workItem from="1593746721249" duration="1725000" />
+      <workItem from="1594092506102" duration="4262000" />
+      <workItem from="1596254823845" duration="27000" />
+      <workItem from="1604882862612" duration="1792000" />
+      <workItem from="1604889768254" duration="4146000" />
+      <workItem from="1605064777077" duration="4000" />
+      <workItem from="1606967707964" duration="224000" />
+      <workItem from="1606968852494" duration="1876000" />
+      <workItem from="1607298531235" duration="1359000" />
+      <workItem from="1607302148130" duration="772000" />
+      <workItem from="1607305220184" duration="297000" />
+      <workItem from="1607394450901" duration="534000" />
+      <workItem from="1608168063644" duration="2000" />
+      <workItem from="1610653096881" duration="496000" />
+      <workItem from="1611459903055" duration="2541000" />
+      <workItem from="1623351423993" duration="898000" />
+      <workItem from="1636410894928" duration="383000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2013" y="151" key="SettingsEditor" timestamp="1636411258375">
+      <screen x="1440" y="25" width="1920" height="1009" />
+    </state>
+    <state x="2013" y="151" key="SettingsEditor/0.25.1440.875/1440.25.1920.1009@1440.25.1920.1009" timestamp="1636411258375" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Learning$factorial_test.coverage" NAME="factorial_test Coverage Results" MODIFIED="1590863755919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modularity/packaging/module" />
+    <SUITE FILE_PATH="coverage/Learning$platform_module.coverage" NAME="platform_module Coverage Results" MODIFIED="1611461709703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Learning$enumerate.coverage" NAME="enumerate Coverage Results" MODIFIED="1593748338110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basics" />
+    <SUITE FILE_PATH="coverage/Learning$havel_hakimi.coverage" NAME="havel_hakimi Coverage Results" MODIFIED="1604893369765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/Learning$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1604893218442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/Learning$3_9.coverage" NAME="3.9 Coverage Results" MODIFIED="1607302204883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_features" />
+    <SUITE FILE_PATH="coverage/Learning$exception.coverage" NAME="exception Coverage Results" MODIFIED="1591723133690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basics" />
+    <SUITE FILE_PATH="coverage/Learning$filtering.coverage" NAME="filtering Coverage Results" MODIFIED="1607394692139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Learning$assignment.coverage" NAME="assignment Coverage Results" MODIFIED="1591723233187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basics/operators" />
+    <SUITE FILE_PATH="coverage/Learning$set_get_del.coverage" NAME="set_get_del Coverage Results" MODIFIED="1594096732432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop/methods" />
+    <SUITE FILE_PATH="coverage/Learning$RSA.coverage" NAME="RSA Coverage Results" MODIFIED="1606971336062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+  </component>
+</project>

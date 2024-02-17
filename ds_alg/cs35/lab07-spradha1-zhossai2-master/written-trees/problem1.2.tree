@@ -1,0 +1,21 @@
+           19
+    12              27
+  8    13       22      30
+ 6       17   21  24
+
+
+: X subtree
+21
+
+: Y subtree
+24
+
+: Z subtree
+30
+
+: after rotation
+
+   22
+21    27
+    24  30
+
